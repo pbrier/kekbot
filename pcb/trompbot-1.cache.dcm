@@ -1,0 +1,30 @@
+EESchema-DOCLIB  Version 2.0  Sun 06 May 2012 12:16:45 PM CEST
+#
+$CMP BC307
+F transistors/bipolar/bc307.pdf
+$ENDCMP
+#
+$CMP CONN_2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CP
+D Condensateur polarise
+$ENDCMP
+#
+$CMP DIODE
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,37 @@
+eeschema (2011-nov-30)-testing  >> Creation date: Mon 11 Jun 2012 11:43:02 PM CEST
+
+#Cmp ( order = Reference )
+| C1         0.1uF       ;             
+| C2         0.1uF       ;             
+| D1         LED         ;             
+| K1         RELAY       ;             
+| K2         RELAY       ;             
+| P1         CONN_3      ;             
+| P2         CONN_3      ;             
+| P3         CONN_2      ;             
+| P4         CONN_2      ;             
+| P5         CONN_4      ;             
+| R3         470R        ;             
+| R4         10R         ;             
+| U1         TI-LAUNCHPAD;             
+| U2         SFH-5110    ;             
+#End Cmp
+
+#Cmp ( order = Value )
+| 0.1uF        C1        ;             
+| 0.1uF        C2        ;             
+| LED          D1        ;             
+| RELAY        K1        ;             
+| RELAY        K2        ;             
+| CONN_2       P3        ;             
+| CONN_2       P4        ;             
+| CONN_3       P1        ;             
+| CONN_3       P2        ;             
+| CONN_4       P5        ;             
+| 10R          R4        ;             
+| 470R         R3        ;             
+| SFH-5110     U2        ;             
+| TI-LAUNCHPAD U1        ;             
+#End Cmp
+
+#End List

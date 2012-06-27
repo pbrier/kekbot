@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Tue 19 Jun 2012 11:48:57 PM CEST
+
+BeginCmp
+TimeStamp = /4F8C9F55;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8C9C38;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCFE4FB;
+Reference = K1;
+ValeurCmp = RELAY;
+IdModule  = SPARTAN SIP RELAY-9007-05-00;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCFE374;
+Reference = K2;
+ValeurCmp = RELAY;
+IdModule  = SPARTAN SIP RELAY-9007-05-00;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCFBEA8;
+Reference = P1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCFBEB5;
+Reference = P2;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCFE556;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCFE563;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCFF4E0;
+Reference = P5;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD686E7;
+Reference = P6;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD7A3C2;
+Reference = P7;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD7AFBF;
+Reference = P8;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD7B0BB;
+Reference = P9;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8C9C69;
+Reference = R3;
+ValeurCmp = 470R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8C9F7E;
+Reference = R4;
+ValeurCmp = 10R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8C9824;
+Reference = U1;
+ValeurCmp = TI-LAUNCHPAD;
+IdModule  = launchpad;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8C9ECC;
+Reference = U2;
+ValeurCmp = SFH-5110;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+EndListe

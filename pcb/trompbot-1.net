@@ -1,0 +1,211 @@
+# EESchema Netlist Version 1.1 created  Tue 12 Jun 2012 11:07:42 PM CEST
+(
+ ( /4F8C9F7E $noname  R4 10R {Lib=R}
+  (    1 N-000019 )
+  (    2 VCC )
+ )
+ ( /4F8C9F55 $noname  C1 0.1uF {Lib=CAPAPOL}
+  (    1 N-000019 )
+  (    2 GND )
+ )
+ ( /4F8C9ECC $noname  U2 SFH-5110 {Lib=SFH-5110}
+  (    1 N-000001 )
+  (    2 GND )
+  (    3 N-000019 )
+ )
+ ( /4F8C9C69 $noname  R3 470R {Lib=R}
+  (    1 N-000026 )
+  (    2 VCC )
+ )
+ ( /4F8C9C38 $noname  D1 LED {Lib=LED}
+  (    1 N-000026 )
+  (    2 N-000002 )
+ )
+ ( /4FCFBEA8 $noname  P1 CONN_3 {Lib=CONN_3}
+  (    1 N-000009 )
+  (    2 VCC )
+  (    3 GND )
+ )
+ ( /4FCFBEB5 $noname  P2 CONN_3 {Lib=CONN_3}
+  (    1 N-000021 )
+  (    2 VCC )
+  (    3 GND )
+ )
+ ( /4FCFE374 $noname  K2 RELAY {Lib=RELAY}
+  (    1 N-000003 )
+  (    2 VCC )
+  (    3 N-000007 )
+  (    4 N-000004 )
+ )
+ ( /4FCFE556 $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 N-000006 )
+  (    2 N-000005 )
+ )
+ ( /4FCFE563 $noname  P4 CONN_2 {Lib=CONN_2}
+  (    1 N-000003 )
+  (    2 N-000004 )
+ )
+ ( /4FCFE4FB $noname  K1 RELAY {Lib=RELAY}
+  (    1 N-000006 )
+  (    2 VCC )
+  (    3 N-000008 )
+  (    4 N-000005 )
+ )
+ ( /4FCFF4E0 $noname  P5 CONN_4 {Lib=CONN_4}
+  (    1 VCC )
+  (    2 N-000025 )
+  (    3 N-000010 )
+  (    4 GND )
+ )
+ ( /4FD686E7 $noname  P6 CONN_3 {Lib=CONN_3}
+  (    1 N-000020 )
+  (    2 VCC )
+  (    3 GND )
+ )
+ ( /4F8C9824 $noname  U1 TI-LAUNCHPAD {Lib=TI-LAUNCHPAD}
+  (    1 VCC )
+  (    2 N-000023 )
+  (    3 N-000016 )
+  (    4 N-000020 )
+  (    5 N-000017 )
+  (    6 N-000002 )
+  (    7 N-000001 )
+  (    8 N-000015 )
+  (    9 N-000022 )
+  (   10 N-000021 )
+  (   11 N-000007 )
+  (   12 N-000008 )
+  (   13 N-000009 )
+  (   14 N-000025 )
+  (   15 N-000010 )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 GND )
+ )
+ ( /4FD7A3C2 $noname  P7 CONN_2 {Lib=CONN_2}
+  (    1 N-000015 )
+  (    2 N-000022 )
+ )
+ ( /4FD7AFBF $noname  P8 CONN_2 {Lib=CONN_2}
+  (    1 N-000023 )
+  (    2 N-000016 )
+ )
+ ( /4FD7B0BB $noname  P9 CONN_1 {Lib=CONN_1}
+  (    1 N-000017 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ U1 7
+ U2 1
+Net 2 "" ""
+ U1 6
+ D1 2
+Net 3 "" ""
+ K2 1
+ P4 1
+Net 4 "" ""
+ P4 2
+ K2 4
+Net 5 "" ""
+ P3 2
+ K1 4
+Net 6 "" ""
+ P3 1
+ K1 1
+Net 7 "" ""
+ U1 11
+ K2 3
+Net 8 "" ""
+ U1 12
+ K1 3
+Net 9 "" ""
+ U1 13
+ P1 1
+Net 10 "" ""
+ U1 15
+ P5 3
+Net 15 "" ""
+ U1 8
+ P7 1
+Net 16 "" ""
+ U1 3
+ P8 2
+Net 17 "" ""
+ U1 5
+ P9 1
+Net 18 "GND" "GND"
+ P2 3
+ P1 3
+ C1 2
+ U2 2
+ P6 3
+ P5 4
+ U1 20
+Net 19 "" ""
+ U2 3
+ C1 1
+ R4 1
+Net 20 "" ""
+ U1 4
+ P6 1
+Net 21 "" ""
+ U1 10
+ P2 1
+Net 22 "" ""
+ P7 2
+ U1 9
+Net 23 "" ""
+ P8 1
+ U1 2
+Net 24 "VCC" "VCC"
+ U1 1
+ P5 1
+ K1 2
+ K2 2
+ P2 2
+ R4 2
+ P1 2
+ R3 2
+ P6 2
+Net 25 "" ""
+ P5 2
+ U1 14
+Net 26 "" ""
+ R3 1
+ D1 1
+}
+#End
