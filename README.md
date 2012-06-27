@@ -2,3 +2,13 @@ kekbot
 ======
 
 KekBot - Low cost robot based on MSP430 Launchpad board
+includes PCB design and Energia software to run the robot
+
+The robot can have:
+- 3 RC servos
+- IR receiver
+- IR transmitter
+- 2 relay outputs
+- some extra pins for analog in and digital I/O
+- I2C interface for advanced features (sensors and extra IO)
+
