@@ -12,3 +12,6 @@ The robot can have:
 - some extra pins for analog in and digital I/O
 - I2C interface for advanced features (sensors and extra IO)
 
+
+PCB design is made using KiCAD (version 2011-nov-30)
+Software is written using Energia, an Arduino "compatible" IDE
