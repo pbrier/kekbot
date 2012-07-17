@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 19 Jun 2012 11:34:25 PM CEST
+EESchema Schematic File Version 2  date Wed 18 Jul 2012 12:37:47 AM CEST
 LIBS:power
 LIBS:ti-launchpad
 LIBS:device
@@ -36,11 +36,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "19 jun 2012"
-Rev ""
-Comp ""
-Comment1 ""
+Title "KekBot breakout board - kekbot.org"
+Date "17 jul 2012"
+Rev "2"
+Comp "(c) 2012 KekkeTek - www.kekketek.nl"
+Comment1 "CC-BY-SA -see: creativecommons.org"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -68,7 +68,8 @@ L R R4
 U 1 1 4F8C9F7E
 P 3550 3350
 F 0 "R4" V 3630 3350 50  0000 C CNN
-F 1 "10R" V 3550 3350 50  0000 C CNN
+F 1 "150R" V 3550 3350 50  0000 C CNN
+F 4 "1700226" H 3550 3350 60  0001 C CNN "ordercode"
 	1    3550 3350
 	1    0    0    1   
 $EndComp
@@ -87,6 +88,7 @@ U 1 1 4F8C9F55
 P 3550 3800
 F 0 "C1" H 3600 3900 50  0000 L CNN
 F 1 "0.1uF" H 3600 3700 50  0000 L CNN
+F 4 "2112751" H 3550 3800 60  0001 C CNN "order code"
 	1    3550 3800
 	-1   0    0    -1  
 $EndComp
@@ -96,6 +98,7 @@ U 1 1 4F8C9ECC
 P 2000 3700
 F 0 "U2" H 2000 3900 60  0000 C CNN
 F 1 "SFH-5110" H 2000 3800 60  0000 C CNN
+F 4 "1869471" H 2000 3700 60  0001 C CNN "order code"
 	1    2000 3700
 	0    -1   -1   0   
 $EndComp
@@ -104,7 +107,8 @@ L R R3
 U 1 1 4F8C9C69
 P 3900 3350
 F 0 "R3" V 3980 3350 50  0000 C CNN
-F 1 "470R" V 3900 3350 50  0000 C CNN
+F 1 "150R" V 3900 3350 50  0000 C CNN
+F 4 "1700226" H 3900 3350 60  0001 C CNN "ordercode"
 	1    3900 3350
 	-1   0    0    1   
 $EndComp
@@ -114,6 +118,7 @@ U 1 1 4F8C9C38
 P 3900 3800
 F 0 "D1" H 3900 3900 50  0000 C CNN
 F 1 "LED" H 3900 3700 50  0000 C CNN
+F 4 "1779664" H 3900 3800 60  0001 C CNN "order code"
 	1    3900 3800
 	0    -1   1    0   
 $EndComp
@@ -141,6 +146,7 @@ U 1 1 4FCFBEA8
 P 9850 4600
 F 0 "P1" V 9800 4600 50  0000 C CNN
 F 1 "CONN_3" V 9900 4600 40  0000 C CNN
+F 4 "1798944 " H 9850 4600 60  0001 C CNN "order code"
 	1    9850 4600
 	1    0    0    -1  
 $EndComp
@@ -150,6 +156,7 @@ U 1 1 4FCFBEB5
 P 3450 4800
 F 0 "P2" V 3400 4800 50  0000 C CNN
 F 1 "CONN_3" V 3500 4800 40  0000 C CNN
+F 4 "1798944 " H 3450 4800 60  0001 C CNN "order code"
 	1    3450 4800
 	-1   0    0    -1  
 $EndComp
@@ -195,6 +202,7 @@ U 1 1 4FCFE374
 P 8850 6350
 F 0 "K11" H 8950 6550 60  0000 C CNN
 F 1 "RELAY" H 8850 6650 60  0000 C CNN
+F 4 "1081622" H 8850 6350 60  0001 C CNN "order code"
 	1    8850 6350
 	1    0    0    -1  
 $EndComp
@@ -204,6 +212,7 @@ U 1 1 4FCFE556
 P 9850 5600
 F 0 "P3" V 9800 5600 40  0000 C CNN
 F 1 "CONN_2" V 9900 5600 40  0000 C CNN
+F 4 "1798941" H 9850 5600 60  0001 C CNN "order code"
 	1    9850 5600
 	1    0    0    -1  
 $EndComp
@@ -213,6 +222,7 @@ U 1 1 4FCFE563
 P 9850 6350
 F 0 "P4" V 9800 6350 40  0000 C CNN
 F 1 "CONN_2" V 9900 6350 40  0000 C CNN
+F 4 "1798941" H 9850 6350 60  0001 C CNN "order code"
 	1    9850 6350
 	1    0    0    -1  
 $EndComp
@@ -222,6 +232,7 @@ U 1 1 4FCFE4FB
 P 8850 5600
 F 0 "K12" H 8950 5800 60  0000 C CNN
 F 1 "RELAY" H 8850 5900 60  0000 C CNN
+F 4 "1081622" H 8850 5600 60  0001 C CNN "order code"
 	1    8850 5600
 	1    0    0    -1  
 $EndComp
@@ -249,6 +260,7 @@ U 1 1 4FCFF4E0
 P 9850 4000
 F 0 "P5" V 9800 4000 50  0000 C CNN
 F 1 "CONN_4" V 9900 4000 50  0000 C CNN
+F 4 "1798945" H 9850 4000 60  0001 C CNN "order code"
 	1    9850 4000
 	1    0    0    -1  
 $EndComp
@@ -286,6 +298,7 @@ U 1 1 4FD686E7
 P 2700 2900
 F 0 "P6" V 2650 2900 50  0000 C CNN
 F 1 "CONN_3" V 2750 2900 40  0000 C CNN
+F 4 "1798944 " H 2700 2900 60  0001 C CNN "order code"
 	1    2700 2900
 	-1   0    0    -1  
 $EndComp
@@ -315,6 +328,7 @@ U 1 1 4F8C9824
 P 6400 4250
 F 0 "U1" H 6400 4750 60  0000 C CNN
 F 1 "TI-LAUNCHPAD" H 6350 4850 60  0000 C CNN
+F 4 "1853793" H 6400 4250 60  0001 C CNN "order code"
 	1    6400 4250
 	1    0    0    -1  
 $EndComp
@@ -324,6 +338,7 @@ U 1 1 4FD7A3C2
 P 2100 4600
 F 0 "P7" V 2050 4600 40  0000 C CNN
 F 1 "CONN_2" V 2150 4600 40  0000 C CNN
+F 4 "1798941" H 2100 4600 60  0001 C CNN "order code"
 	1    2100 4600
 	-1   0    0    -1  
 $EndComp
@@ -337,6 +352,7 @@ U 1 1 4FD7AFBF
 P 3800 2450
 F 0 "P8" V 3750 2450 40  0000 C CNN
 F 1 "CONN_2" V 3850 2450 40  0000 C CNN
+F 4 "1798941" H 3800 2450 60  0001 C CNN "order code"
 	1    3800 2450
 	-1   0    0    -1  
 $EndComp
@@ -346,6 +362,7 @@ U 1 1 4FD7B0BB
 P 4250 4200
 F 0 "P9" H 4330 4200 40  0000 L CNN
 F 1 "CONN_1" H 4250 4255 30  0001 C CNN
+F 4 "1835265 " H 4250 4200 60  0001 C CNN "ordercode"
 	1    4250 4200
 	-1   0    0    1   
 $EndComp

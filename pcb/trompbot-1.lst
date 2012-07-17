@@ -1,37 +1,43 @@
-eeschema (2011-nov-30)-testing  >> Creation date: Mon 11 Jun 2012 11:43:02 PM CEST
+eeschema (2011-nov-30)-testing  >> Creation date: Tue 17 Jul 2012 11:58:46 PM CEST
 
-#Cmp ( order = Reference )
-| C1         0.1uF       ;             
-| C2         0.1uF       ;             
-| D1         LED         ;             
-| K1         RELAY       ;             
-| K2         RELAY       ;             
-| P1         CONN_3      ;             
-| P2         CONN_3      ;             
-| P3         CONN_2      ;             
-| P4         CONN_2      ;             
-| P5         CONN_4      ;             
-| R3         470R        ;             
-| R4         10R         ;             
-| U1         TI-LAUNCHPAD;             
-| U2         SFH-5110    ;             
+#Cmp ( order = Reference ) (with SubCmp)
+| C1         0.1uF       ;             ; 2112751     
+| D1         LED         ;             ; 1779664     
+| K11        RELAY       ;             ; 1081622     
+| K12        RELAY       ;             ; 1081622     
+| P1         CONN_3      ;             ; 1798944     
+| P2         CONN_3      ;             ; 1798944     
+| P3         CONN_2      ;             ; 1798941     
+| P4         CONN_2      ;             ; 1798941     
+| P5         CONN_4      ;             ; 1798945     
+| P6         CONN_3      ;             ; 1798944     
+| P7         CONN_2      ;             ; 1798941     
+| P8         CONN_2      ;             ; 1798941     
+| P9         CONN_1      ;             ; 1835265     
+| R3         150R        ;             ; 1700226     
+| R4         150R        ;             ; 1700226     
+| U1         TI-LAUNCHPAD;             ; 1853793     
+| U2         SFH-5110    ;             ; 1869471     
 #End Cmp
 
-#Cmp ( order = Value )
-| 0.1uF        C1        ;             
-| 0.1uF        C2        ;             
-| LED          D1        ;             
-| RELAY        K1        ;             
-| RELAY        K2        ;             
-| CONN_2       P3        ;             
-| CONN_2       P4        ;             
-| CONN_3       P1        ;             
-| CONN_3       P2        ;             
-| CONN_4       P5        ;             
-| 10R          R4        ;             
-| 470R         R3        ;             
-| SFH-5110     U2        ;             
-| TI-LAUNCHPAD U1        ;             
+#Cmp ( order = Value ) (with SubCmp)
+| 0.1uF        C1        ;             ; 2112751     
+| LED          D1        ;             ; 1779664     
+| RELAY        K11       ;             ; 1081622     
+| RELAY        K12       ;             ; 1081622     
+| CONN_1       P9        ;             ; 1835265     
+| CONN_2       P3        ;             ; 1798941     
+| CONN_2       P4        ;             ; 1798941     
+| CONN_2       P7        ;             ; 1798941     
+| CONN_2       P8        ;             ; 1798941     
+| CONN_3       P1        ;             ; 1798944     
+| CONN_3       P2        ;             ; 1798944     
+| CONN_3       P6        ;             ; 1798944     
+| CONN_4       P5        ;             ; 1798945     
+| 150R         R3        ;             ; 1700226     
+| 150R         R4        ;             ; 1700226     
+| SFH-5110     U2        ;             ; 1869471     
+| TI-LAUNCHPAD U1        ;             ; 1853793     
 #End Cmp
 
 #End List

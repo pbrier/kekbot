@@ -1,9 +1,5 @@
-update=Wed 13 Jun 2012 12:38:20 AM CEST
-last_client=pcbnew
-[general]
-version=1
-RootSch=trompbot-1.sch
-BoardNm=trompbot-1.brd
+update=Mon 09 Jul 2012 11:38:36 PM CEST
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -105,3 +101,5 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=pga_sockets
 LibName12=valves
+[general]
+version=1
